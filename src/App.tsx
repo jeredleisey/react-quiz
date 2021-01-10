@@ -43,7 +43,7 @@ const App = () => {
       // Users answer
       const answer = e.currentTarget.value;
       // Check answer against correct answer
-      const correct = questions[number].correct_asnwer === answer;
+      const correct = questions[number].correct_answer === answer;
       // Add score if answer is correct
       if (correct) setScore((prev) => prev + 1);
       // Save answer in the array for user answers
@@ -82,7 +82,7 @@ const App = () => {
         {loading ? <p>Loading Questions...</p>: null}
         {!loading && !gameOver && (
           <QuestionCard
-            quesntionNr={number + 1}
+            questionNr={number + 1}
             totalQuestions={TOTAL_QUESTIONS}
             question={questions[number].question}
             answers={questions[number].answers}
