@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# A quiz app using TypeScript/React
+
+This app pulls from [Open Trivia Database](https://opentdb.com/api_config.php) to create a simple 10 question quiz.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
